@@ -1,0 +1,10 @@
+<form action="https://www.google.com/search" method="get" class="site-nav-search-form">
+  <input type="search" name="q" required="required" minlength="2" maxlength="30" value="" class="site-nav-search-input"/>
+  <input type="hidden" name="as_sitesearch" value="{{@site.url}}"/>
+</form>
+
+{{!-- Example of AJAX search app integration
+<form action="http://localhost:8080/api/ghost/search" method="post" class="site-nav-search-form site-nav-search-form-ajax">
+  <input name="q" type="search" required="required" minlength="2" maxlength="30" value="" class="site-nav-search-input"/>
+</form>
+--}}
